@@ -5,13 +5,16 @@ A-to-I Editing and Rare Disorders Lab: https://labs.icahn.mssm.edu/breenlab/
 
 Understanding how chromosome 21 gene dosage contributes to neurodevelopmental and systemic phenotypes in trisomy 21 (T21) remains a fundamental challenge. We performed transcriptome-wide RNA sequencing on fetal cortical and hippocampal tissues from 20 T21 cases and 27 euploid controls collected between 13–22 weeks post-conception, a critical period for human brain development. Differential expression analysis revealed 572 dysregulated genes in the prefrontal cortex and 519 in the hippocampus (FDR < 5%), with significant enrichment for chromosome 21 genes. Functional enrichment analyses highlighted disruptions in neurodevelopmental, synaptic, and immune-related pathways. Among the most strongly dysregulated genes was ADARB1, a chromosome 21-encoded RNA editing enzyme, whose overexpression in T21 fetal brain was associated with increased adenosine-to-inosine (A-to-I) editing, including recoding sites in GRIA2 (p.R764G), GRIA3 (p.R775G), and GRIK2 (p.Y571C, p.Q621R). A meta-analysis incorporating nine independent transcriptomic datasets spanning early embryonic and progenitor cell types validated robust chromosome 21 dosage effects, including consistent ADARB1 overexpression. Extending these findings, a meta-analysis of A-to-I editing across datasets revealed widespread over-editing at 3′UTRs and at GRIA3 (p.R775G), a site critical for AMPA receptor desensitization. Together, these results implicate dysregulated RNA editing driven by ADARB1 overexpression as a post-transcriptional mechanism contributing to fetal neuropathology in T21 and provide a framework for understanding the broader molecular consequences of chromosome 21 dosage sensitivity during brain development.
 
-![Abstract (1)](https://github.com/BreenMS/Living-Brain/blob/main/Figure_1.png)
+![Abstract (1)](https://github.com/BreenMS/Trisomy21/blob/main/Figure_1.png)<br /> 
 
-Here we described the main computational code used to generate all results and figures in this body of work.  
+# WHERE IS THE DATA? (two locations below)<br /> 
 
-All original RNA-sequencing data are publicly at the National Center for Biotechnology Information Gene Expression Omnibus under the following accession number: [GSE301886](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE301886).  
+1. All original RNA-sequencing data are publicly at the National Center for Biotechnology Information Gene Expression Omnibus under the following accession number: [GSE301886](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE301886).  <br /> 
+2. Data can also be downloaded from our interactive [RShiny App](https://andyyang.shinyapps.io/Ts21-dashboard/). It also enables gene-by-gene inspection of between-study effect sizes and heterogeneity, generating meta-analytic forest plots for any gene of interest across the ten harmonized Trisomy 21 RNA-sequencing datasets. <br /> <br /> 
 
-# This work entails four main levels of analysis:
+
+# WHERE IS THE CODE? (it's all below)<br /> 
+Code falls into 4 core areas:
 1. Compute an Alu Editing Index (AEI) from a STAR mapped bam file  [(RNAEditingIndexer v1.0)](https://github.com/a2iEditing/RNAEditingIndexer)<br /> 
 2. Quantifying RNA editing sites from STAR mapped bam files using de novo methods [(reditools v2.0)](https://github.com/tizianoflati/reditools2.0) and [(JACUSA2)](https://github.com/dieterich-lab/JACUSA2)<br /> 
 3. Quantifying RNA editing from STAR mapped bam files using a list of predefined list of sites (code provided below)<br /> 
