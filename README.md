@@ -19,7 +19,7 @@ Code falls into 2 core areas:
 1. *Gene-level analyses*, including RNA-seq QC, mapping and counting via [a detailed and highly cited NextFlow pipeline](https://github.com/CommonMindConsortium/RAPiD-nf) <br />
 Note that normalization [VOOM](https://ucdavis-bioinformatics-training.github.io/2018-June-RNA-Seq-Workshop/thursday/DE.html), differential expression testing [limma](https://ucdavis-bioinformatics-training.github.io/2018-June-RNA-Seq-Workshop/thursday/DE.html), network analysis [WGCNA](https://cran.r-project.org/web/packages/WGCNA/refman/WGCNA.html), gene set preservation analysis, and cell type deconvolution [bMIND](https://randel.github.io/MIND/) are done following these GitHub and publications while following our methods section. 
 
-Additionally, gene-level meta-analyses were done with [provided R code](https://github.com/BreenMS/Trisomy21/blob/main/T21_meta_analysis.r)<br /> 
+Additionally, gene-level meta-analysis was done using [DEG ssummaries from 10 independent studies covering 17 unique comparisons](https://github.com/BreenMS/Trisomy21/blob/main/T21_DEG_summaries.zip) and analyzed [using R code](https://github.com/BreenMS/Trisomy21/blob/main/T21_meta_analysis.r).<br /> 
 
 2. *RNA editing-level analyses*, including computint an Alu Editing Index (AEI) from a STAR mapped bam file [RNAEditingIndexer v1.0](https://github.com/a2iEditing/RNAEditingIndexer) and quantifying RNA editing sites from STAR mapped bam files using known editing sites [as previously described](https://github.com/BreenMS/Quantify-RNA-editing-from-bam-file). Further details provided below...<br /> <br /> 
 
