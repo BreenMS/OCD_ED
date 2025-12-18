@@ -14,7 +14,12 @@ Understanding how chromosome 21 gene dosage contributes to neurodevelopmental an
 
 
 # WHERE IS THE CODE? (it's all below)<br /> 
-Code falls into 4 core areas:
+Code falls into 2 core areas:
+
+1. Gene-level analyses:<br /> 
+a. RNA-seq QC, mapping and counting via [a detailed and highly cited NextFlow pipeline](https://github.com/CommonMindConsortium/RAPiD-nf) <br />
+
+
 1. Compute an Alu Editing Index (AEI) from a STAR mapped bam file  [(RNAEditingIndexer v1.0)](https://github.com/a2iEditing/RNAEditingIndexer)<br /> 
 2. Quantifying RNA editing sites from STAR mapped bam files using de novo methods [(reditools v2.0)](https://github.com/tizianoflati/reditools2.0) and [(JACUSA2)](https://github.com/dieterich-lab/JACUSA2)<br /> 
 3. Quantifying RNA editing from STAR mapped bam files using a list of predefined list of sites (code provided below)<br /> 
