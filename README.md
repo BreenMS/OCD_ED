@@ -34,12 +34,12 @@ For paired analyses, we used the same fixed-effect covariates and modeled within
 
 ## Repository structure
 
-- `analysis/01_regional_differential_expression.R`: regional limma-voom analyses for DLPFC and caudate
-- `analysis/02_paired_differential_expression.R`: paired limma-voom analyses using `duplicateCorrelation`
-- `analysis/03_variance_partition.R`: transcriptome-wide variance decomposition
-- `analysis/04_meta_analysis.R`: gene-wise random-effects meta-analysis using REML
-- `analysis/05_bayes_factor_ED_vs_OCD.R`: Wakefield approximate Bayes factor analysis for direct ED vs OCD contrasts
-- `utils/helpers.R`: shared helper functions
+- `analysis/01_regional_differential_expression.R`: [regional limma-voom analyses for DLPFC and caudate](https://github.com/BreenMS/OCD_ED/blob/main/01_regional_differential_expression.R)
+- `analysis/02_paired_differential_expression.R`: [paired limma-voom analyses using](https://github.com/BreenMS/OCD_ED/blob/main/02_paired_differential_expression.R) `duplicateCorrelation`
+- `analysis/03_variance_partition.R`: [transcriptome-wide variance decomposition](https://github.com/BreenMS/OCD_ED/blob/main/03_variance_partition.R)
+- `analysis/04_meta_analysis.R`: [gene-wise random-effects meta-analysis using REML](https://github.com/BreenMS/OCD_ED/blob/main/04_meta_analysis.R)
+- `analysis/05_bayes_factor_ED_vs_OCD.R`: [Wakefield approximate Bayes factor analysis for direct ED vs OCD contrasts](https://github.com/BreenMS/OCD_ED/blob/main/05_bayes_factor_ED_vs_OCD.R)
+- `utils/helpers.R`: [shared helper functions](https://github.com/BreenMS/OCD_ED/blob/main/helpers.R)
 
 ## Notes
 
