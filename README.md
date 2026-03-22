@@ -14,7 +14,7 @@ All original RNA-sequencing data are publicly at the National Center for Biotech
 
 
 # WHERE IS THE CODE? (it's all below)<br /> 
-This repository contains the core transcriptomic analyses supporting the manuscript, including regional differential expression, paired differential expression, variance partitioning, cross-study meta-analysis, and Bayes factor evaluation of direct ED vs OCD contrasts.
+This repository contains the core transcriptomic analyses supporting the manuscript, including regional differential expression, paired differential expression, variance partitioning, cross-study meta-analysis, Bayes factor evaluation of direct ED vs OCD contrasts, and drug gene-set enrichment analysis.
 
 ## Core differential expression model
 
@@ -39,6 +39,7 @@ For paired analyses, we used the same fixed-effect covariates and modeled within
 - `analysis/03_variance_partition.R`: [transcriptome-wide variance decomposition](https://github.com/BreenMS/OCD_ED/blob/main/03_variance_partition.R)
 - `analysis/04_meta_analysis.R`: [gene-wise random-effects meta-analysis using REML](https://github.com/BreenMS/OCD_ED/blob/main/04_meta_analysis.R)
 - `analysis/05_bayes_factor_ED_vs_OCD.R`: [Wakefield approximate Bayes factor analysis for direct ED vs OCD contrasts](https://github.com/BreenMS/OCD_ED/blob/main/05_bayes_factor_ED_vs_OCD.R)
+- `analysis/06_DSigDB_manual_enrichment.R`: [DSigDB and psychotropic signature enrichment analysis](https://github.com/BreenMS/OCD_ED/blob/main/06_DSigDB_manual_enrichment.R)
 - `utils/helpers.R`: [shared helper functions](https://github.com/BreenMS/OCD_ED/blob/main/helpers.R)
 
 ## Notes
