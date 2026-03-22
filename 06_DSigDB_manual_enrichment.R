@@ -1,5 +1,5 @@
 # ============================================================
-# Manual DSigDB enrichment (no clusterProfiler)
+# Manual DSigDB enrichment 
 # ============================================================
 
 library(data.table)
