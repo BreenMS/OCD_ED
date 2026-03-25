@@ -40,7 +40,10 @@ For paired analyses, we used the same fixed-effect covariates and modeled within
 - `analysis/04_meta_analysis.R`: [gene-wise random-effects meta-analysis using REML](https://github.com/BreenMS/OCD_ED/blob/main/04_meta_analysis.R)
 - `analysis/05_bayes_factor_ED_vs_OCD.R`: [Wakefield approximate Bayes factor analysis for direct ED vs OCD contrasts](https://github.com/BreenMS/OCD_ED/blob/main/05_bayes_factor_ED_vs_OCD.R)
 - `analysis/06_DSigDB_manual_enrichment.R`: [DSigDB and psychotropic signature enrichment analysis](https://github.com/BreenMS/OCD_ED/blob/main/06_DSigDB_manual_enrichment.R)
+- `analysis/TWAS_Fusion_code`: [Transcriptome-wide association analysis (TWAS)](https://github.com/BreenMS/OCD_ED/blob/main/TWAS_FUSION_code.md)
 - `utils/helpers.R`: [shared helper functions](https://github.com/BreenMS/OCD_ED/blob/main/helpers.R)
+
+
 
 ## Notes
 
